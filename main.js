@@ -14,13 +14,13 @@ const validateEmail = function (mail) {
 };
 
 // input.addEventListener("change", function (e) {});
-window.addEventListener("resize", function (e) {
-  const size = window.innerWidth;
-  console.log(size);
-  if (size >= 1000) {
-    respImage.setAttribute("src", "./images/hero-desktop.jpg");
-  }
-});
+// window.addEventListener("resize", function (e) {
+//   const size = window.innerWidth;
+//   // console.log(size);
+//   if (size >= 1000) {
+//     respImage.setAttribute("src", "./images/hero-desktop.jpg");
+//   }
+// });
 btn.addEventListener("click", function (e) {
   const status = validateEmail(e.target.value);
   if (!status) {
