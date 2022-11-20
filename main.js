@@ -15,7 +15,7 @@ const validateEmail = function (mail) {
 
 // input.addEventListener("change", function (e) {});
 window.addEventListener("resize", function (e) {
-  const size = e.target.innerWidth;
+  const size = window.innerWidth;
 
   if (size >= 1000) {
     respImage.setAttribute("src", "./images/hero-desktop.jpg");
