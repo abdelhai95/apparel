@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apparel</title>
+  </head>
+  <body>
+    <main class="lg:grid lg:grid-cols-2 gap-12">
+      <header class="p-10 lg:p-12 lg:ml-[4rem] xl:ml-[9rem]">
+        <img src="../images//logo.svg" alt="apparel logo" />
+        <!-- <p>BASE APPAREL</p> -->
+      </header>
+      <img
+        class="mobile w-full mb-20 lg:row-span-5 lg:h-full"
+        src="../images/hero-mobile.jpg"
+        alt="a girl model"
+      />
+
+      <h2
+        class="font-josefin font-light text-5xl lg:ml-[-2rem] xl:text-start xl:ml-[12rem] text-center text-red-300 tracking-[.4em]"
+      >
+        WE'RE
+      </h2>
+      <h1
+        class="font-medium text-center xl:ml-[-2rem] xl:mt-[-2rem] font-josefin text-5xl tracking-[.4em]"
+      >
+        COMING <br />
+        SOON
+      </h1>
+
+      <p
+        class="text-center text-red-300 text-base p-3 font-normal font-josefin mt-4 lg:ml-8 xl:text-justify xl:ml-44 xl:mr-20"
+      >
+        Hello fellow shoppers! We're currently building our new fashion store.
+        Add your email below to stay up-to-date with announcements and our
+        launch deals.
+      </p>
+
+      <div id="parent" class="relative">
+        <input
+          id="input"
+          class="ml-auto mr-auto mt-10 mb-24 block border-red-300 border-[1px] w-10/12 xl:ml-44 rounded-3xl p-3 font-josefin placeholder-red-200 font-medium text-base outline-none focus:border-2 focus:border-red-300 xl:w-8/12"
+          type="email"
+          placeholder="Email Address"
+        />
+        <button
+          id="btn"
+          class="sm:w-[4.5rem] sm:right-[2rem] md:right-[3.5rem] lg:top-[2.4rem] lg:right-[2rem] xl:right-12 absolute inline-block h-[3em] w-16 bottom-[.0em] right-[1em] text-center p-1 text-lg rounded-3xl bg-gradient-to-l from-rose-400 via-rose-300 to-rose-200"
+        >
+          <img src="./images/icons8-forward-50.png" alt="button" />
+        </button>
+        <div
+          id="alertMessage"
+          class="hidden flex justify-center gap-4 align-top mt-[-4.5em] mb-[3em]"
+        >
+          <img class="inline-block" src="/images/icon-error.svg" alt="error" />
+          <p class="inline-block">Please enter a vaild email</p>
+        </div>
+      </div>
+      <!-- <img
+        class="btn w-16 h-[3.2rem] p-3 text-lg rounded-3xl absolute bottom-[-10.7em] right-4 shadow-md shadow-rose-300 bg-gradient-to-l from-rose-400 via-rose-300 to-rose-200 block focus:scale-x-50"
+        src="../images/icons8-forward-50.png"
+        alt=""
+      /> -->
+    </main>
+    <script type="module" src="/main.js"></script>
+  </body>
+</html>
