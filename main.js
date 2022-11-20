@@ -18,7 +18,7 @@ window.addEventListener("resize", function (e) {
   const size = e.target.innerWidth;
 
   if (size >= 1000) {
-    respImage.setAttribute("src", "/images/hero-desktop.jpg");
+    respImage.setAttribute("src", "./images/hero-desktop.jpg");
   }
 });
 btn.addEventListener("click", function (e) {
