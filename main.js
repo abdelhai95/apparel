@@ -3,7 +3,7 @@ import "./style.css";
 // const parentAfter = window.getComputedStyle(parent, "::after");
 const btn = document.querySelector("#btn");
 const alertMessage = document.querySelector("#alertMessage");
-const respImage = document.querySelector(".mobile");
+const respImage = document.querySelector("#mobile");
 const input = document.querySelector("#input");
 
 // const parent = document.querySelector("#parent");
@@ -16,7 +16,7 @@ const validateEmail = function (mail) {
 // input.addEventListener("change", function (e) {});
 window.addEventListener("resize", function (e) {
   const size = window.innerWidth;
-
+  console.log(size);
   if (size >= 1000) {
     respImage.setAttribute("src", "./images/hero-desktop.jpg");
   }
